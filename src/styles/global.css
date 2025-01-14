@@ -11,7 +11,7 @@
   }
 
   /* "Content" container in Figma */
-  .gfe-gradient-container {
-    @apply mx-auto flex w-full flex-col gap-16 rounded bg-white px-3 py-12 shadow-[0_1px_2px_rgba(0,0,0,0.05)] md:max-w-full md:rounded-md md:px-4 md:py-16 md:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)] lg:p-24 lg:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)];
+  .gfe-container {
+    @apply mx-auto flex w-full flex-col pt-4 md:max-w-full md:px-4 md:py-16 lg:p-24;
   }
 }
