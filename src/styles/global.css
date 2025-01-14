@@ -12,6 +12,6 @@
 
   /* "Content" container in Figma */
   .gfe-container {
-    @apply mx-auto flex w-full flex-col pt-4 md:max-w-full md:px-4 md:py-16 lg:p-24;
+    @apply mx-auto flex w-full flex-col pt-4 md:max-w-full md:px-4 md:py-16 lg:px-28 lg:pt-4;
   }
 }
