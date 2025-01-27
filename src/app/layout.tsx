@@ -17,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={noto.className}>{children}</body>
+      <body className={noto.className}>
+        <div id='portal-root'></div>
+        {children}
+      </body>
     </html>
   );
 }
